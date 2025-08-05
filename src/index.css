@@ -1,0 +1,17 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    height: 100vh;
+    background: #1b1a1c;
+    color: white;
+    font-family: 'comic sans ms', cursive, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282c34;
+}
