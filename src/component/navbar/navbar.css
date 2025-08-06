@@ -34,8 +34,11 @@
 }
 
 .nav-menu li img{
-    transform: translate(0%,120%);
+    transform: translate(0%,100%);
     position: absolute;
+    width: 40px;
+    height: 40px;
+
 }
 .anchor-link{
     text-decoration: none;
