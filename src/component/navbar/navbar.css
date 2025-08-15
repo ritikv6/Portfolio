@@ -52,8 +52,13 @@
 }
 @media (max-width: 768px) {
     .navbar{
-        margin: 20px 50px;
+        margin: 10px 10px;
+        padding: 20px 20px;
         background: #1b1a1c;
+    }
+    .logo_img img{
+        width: auto;
+        margin-top: 0px;
     }
     .nav-connect{
         display: none;

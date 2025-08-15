@@ -87,8 +87,8 @@
         font-weight: 600;
     }
     .mywork-title img{
-        width: 130px;
-        right: -20px;
+        width: auto;
+        margin-right: -20px;
     }
     .mywork-container{
         flex-direction: column;
