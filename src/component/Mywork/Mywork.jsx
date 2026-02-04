@@ -10,6 +10,7 @@ const Mywork = () => {
         <div id='work' className='mywork'>
             <div className="mywork-title">
                 <h1>My Latest Work</h1>
+                <button className='arrow-btn'>{">>"}</button>
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="mywork-container">

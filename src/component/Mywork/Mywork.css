@@ -7,12 +7,32 @@
     margin: 80px 170px;
 }
 .mywork-title{
+    display: flex;
     position: relative;
+    align-items: center;
+    gap: 10;
 }   
 .mywork-title h1{
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
+    display: flex;
+    gap: 20px;
+}
+.mywork button.arrow-btn {
+    font-size: 48px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    color: #b415ff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.mywork button.arrow-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: brightness(1.5) saturate(1.2);
 }
 .mywork-item h2{
     font-size: 40px;
@@ -36,8 +56,8 @@
     height: 100px;
     width: 100px;
     position: absolute;
-    bottom: 40px;
-    right: -30px;
+    bottom: 50px;
+    right: 70px;
     z-index: -1;
 }
 .mywork-container{
@@ -85,6 +105,11 @@
         font-size: 50px;
         padding: 0px 0px ;
         font-weight: 600;
+    }
+    .mywork button.arrow-btn {
+        font-size: 36px;
+        padding: 8px 12px;
+        margin-left: 15px;
     }
     .mywork-title img{
         width: auto;

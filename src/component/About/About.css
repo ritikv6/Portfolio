@@ -8,21 +8,48 @@
 }
 
 .about-title {
+    display: flex;
     position: relative;
+    align-items: center;
+    gap: 10;
+   
 }
 
 .about-title h1 {
     padding: 0px 30px;
     font-size: 80px;
+    gap: 20px;
     font-weight: 600;
+}
+
+.about-title button.arrow-btn {
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    font-size: 48px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    color: #b415ff;
+    cursor: pointer;
+    transition: 0.3s;
+    transition: filter 0.3s ease, transform 0.2s ease;
+}
+.about-title button.arrow-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: brightness(1.5) saturate(1.2);
+
 }
 
 .about-title img {
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: relative;
     bottom: 40px;
-    right: -25px;
+    right: 180px;
+    background-color: transparent;
     z-index: -1;
 
 }
@@ -128,7 +155,14 @@
 
     .about-title h1 {
         font-size: 50px;
+        display: flex;
+        align-items: center;
         padding: 20px 0px;
+    }
+    .arrow-button {
+        font-size: 36px;
+        padding: 5px 10px;
+        margin-left: 10px;
     }
 
     .about-title img {

@@ -6,6 +6,7 @@ const Services = () => {
         <div id='services' className='services'>
             <div className="services-title">
                 <h1>My Services</h1>
+                <button className='arrow-btn'>{">>"}</button>
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="services-container">

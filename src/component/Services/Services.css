@@ -7,20 +7,39 @@
     margin : 80px 170px  ;
 }
 .services-title{
+    display: flex;
     position: relative;
+    align-items: center;
+    gap: 10;
 
 }
 .services-title h1{
     padding: 0px 30px;
     font-size: 80px;
+    gap : 20px;
     font-weight: 600;
+}
+.services button.arrow-btn {
+    font-size: 48px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    color: #b415ff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.services button.arrow-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: brightness(1.5) saturate(1.2);
 }
 .services-title img{
     height: 100px;
     width: 100px;
     position: absolute;
     bottom: 40px;
-    right: -25px;
+    right: 80px;
     z-index: -1;
     
 }
