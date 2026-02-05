@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 170px;
+    padding: 10px 150px;
+
 }
 
 .nav-menu{
@@ -15,7 +16,7 @@
 }
 
 .nav-connect{
-    padding: 20px 40px;
+    padding: 15px 40px;
     border-radius: 50px;
     background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
     font-size: 28px;
@@ -36,6 +37,7 @@
 .nav-menu li img{
     transform: translate(0%,100%);
     position: absolute;
+    top: 15px;
     width: 40px;
     height: 40px;
 
