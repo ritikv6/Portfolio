@@ -7,7 +7,7 @@ import App from './App.jsx'
 import { Link } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='/Protfolio'>
+    <BrowserRouter basename='/Portfolio'>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
