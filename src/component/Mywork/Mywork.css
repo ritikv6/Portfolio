@@ -19,7 +19,7 @@
     display: flex;
     gap: 20px;
 }
-.mywork button.arrow-btn {
+.mywork arrow-btn {
     font-size: 48px;
     padding: 10px 15px;
     margin-left: 20px;
@@ -29,7 +29,7 @@
     cursor: pointer;
     transition: 0.3s;
 }
-.mywork button.arrow-btn:hover {
+.mywork arrow-btn:hover {
     transform: scale(1.1);
     transition: 0.5s;
     filter: brightness(1.5) saturate(1.2);

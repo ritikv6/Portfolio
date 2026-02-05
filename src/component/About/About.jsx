@@ -9,7 +9,7 @@ const About = () => {
                 <div className="about-title">
                     <h1>About Me</h1>
                     <button className='arrow-btn'>{">>"}</button>
-                    <Link to='/Page1' className="arrow-btn">{">>"}</Link>
+                    
                     <img src={theme_pattern} alt="Theme Pattern" /> 
                 </div>
                 <div className='about-sections'>

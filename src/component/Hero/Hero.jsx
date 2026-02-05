@@ -2,10 +2,12 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/PHOTO.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div id='home' className='hero'>
         <img src={profile_img} alt="Hero Background" />
+    
         <h1><span>I'm Ritik Verma,</span> new learning devloper</h1>
         <p>I'm a passionate developer with a keen interest in web development and design. I love creating beautiful and functional websites that provide great user experiences.</p>
         <div className="hero-action">

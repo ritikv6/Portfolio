@@ -5,9 +5,10 @@ import Navbar from "./component/navbar/navbar"
 const Page1 = () => {
     return (
     <div>
-    <Navbar/>  
+     
     <Contact/>
-    <Footer/>
+    
     </div>
 )
 }
+export default Page1;
