@@ -22,6 +22,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
+            
             <div className="footer-bottom">
                 <div className="footer-bottom-left">
                     <p>© 2023 Ritik Verma. All rights reserved.</p>

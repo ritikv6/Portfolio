@@ -4,6 +4,8 @@ import Navbar from "./component/navbar/navbar";
 import Footer from "./component/Footer/Footer";
 import Home from "./Home";
 import Page1 from "./Page1";
+import "./index.css";
+
 import { Link } from "react-router-dom";
 const App = () => {
   return (

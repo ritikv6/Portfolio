@@ -20,7 +20,7 @@ const Mywork = () => {
       <div className="mywork-container">
         <div className="mywork-item">
           <h2>Project 1</h2>
-          <p>A responsive website built using React and CSS.</p>
+          <p>A responsive website built using React, CSS and Tailwind.</p>
           <img src={work_img_1} alt="" />
         </div>
         <div className="mywork-item">

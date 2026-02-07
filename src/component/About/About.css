@@ -3,22 +3,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+    gap: 6.15vh;
+    margin: 6.15vh 13.08vh;
 }
 
 .about-title {
     display: flex;
     position: relative;
     align-items: center;
-    gap: 10;
+    gap: 0.77vh;
    
 }
 
 .about-title h1 {
-    padding: 0px 30px;
-    font-size: 80px;
-    gap: 20px;
+    padding: 0px 2.31vh;
+    font-size: clamp(2rem, 5vw, 6.15vh);
+    gap: 1.54vh;
     font-weight: 600;
 }
 
@@ -26,9 +26,9 @@
     padding: 0;
     line-height: 1;
     display: flex;
-    font-size: 48px;
-    padding: 10px 15px;
-    margin-left: 20px;
+    font-size: clamp(1.5rem, 4vw, 3.69vh);
+    padding: 0.77vh 1.15vh;
+    margin-left: 1.54vh;
     border: none;
     background-color: transparent;
     color: #b415ff;
@@ -44,11 +44,11 @@
 }
 
 .about-title img {
-    height: 100px;
-    width: 100px;
+    height: 7.69vh;
+    width: 7.69vh;
     position: relative;
-    bottom: 40px;
-    right: 180px;
+    bottom: 3.08vh;
+    right: 13.85vh;
     background-color: transparent;
     z-index: -1;
 
@@ -56,46 +56,46 @@
 
 .about-sections {
     display: flex;
-    gap: 80px;
+    gap: 6.15vh;
 
 }
 
 .about-right {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 6.15vh;
 }
 
 .about-left img {
-    width: 500px;
-    height: 500px;
-    box-shadow: 0px 0px 20px rgba(168, 179, 236, 0.2);
+    width: 38.46vh;
+    height: 38.46vh;
+    box-shadow: 0px 0px 1.54vh rgba(168, 179, 236, 0.2);
 }
 
 .about-para {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    font-size: 24px;
+    gap: 1.54vh;
+    font-size: clamp(1.2rem, 2.5vw, 1.85vh);
     font-weight: 500;
 }
 
 .about-skills {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.54vh;
 }
 
 .about-skill {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.54vh;
     transition: 0.3s
 }
 
 .about-skill p {
-    min-width: 150px;
-    font-size: 24px;
+    min-width: 11.54vh;
+    font-size: clamp(1.2rem, 2.5vw, 1.85vh);
     font-weight: 500;
 }
 
@@ -103,7 +103,7 @@
     outline: none;
     border: none;
     width: 50%;
-    height: 8px;
+    height: 0.62vh;
     border-radius: 50px;
     background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
 }
@@ -112,19 +112,19 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin-bottom: 80px;
+    margin-bottom: 6.15vh;
 }
 
 .about-achievement {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 1.54vh;
     transition: 0.5s;
 }
 
 .about-achievement h1 {
-    font-size: 60px;
+    font-size: clamp(1.8rem, 4vw, 4.62vh);
     font-weight: 600;
     background: linear-gradient(270deg, #df8908 50.41%, #b415ff 90.25%);
     background-clip: text;
@@ -133,7 +133,7 @@
 }
 
 .about-achievement p {
-    font-size: 24px;
+    font-size: clamp(1.2rem, 2.5vw, 1.85vh);
     font-weight: 500;
 }
 
@@ -148,21 +148,21 @@
 
 @media (max-width: 768px) {
     .about {
-        gap: 40px;
-        margin: 50px 70px;
+        gap: 3.08vh;
+        margin: 3.85vh 5.38vh;
         align-items: start;
     }
 
     .about-title h1 {
-        font-size: 50px;
+        font-size: clamp(1.5rem, 4vw, 3.85vh);
         display: flex;
         align-items: center;
-        padding: 20px 0px;
+        padding: 1.54vh 0px;
     }
     .arrow-button {
-        font-size: 36px;
-        padding: 5px 10px;
-        margin-left: 10px;
+        font-size: clamp(1.2rem, 3vw, 2.77vh);
+        padding: 0.38vh 0.77vh;
+        margin-left: 0.77vh;
     }
 
     .about-title img {
@@ -180,14 +180,14 @@
     }
 
     .about-para {
-        font-size: 18px;
-        line-height: 32px;
+        font-size: clamp(1rem, 2vw, 1.38vh);
+        line-height: 2.46vh;
     }
 
     .about-skills {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.54vh;
         transition: 0.3s;
 
     }
@@ -196,13 +196,13 @@
         outline: none;
         border: none;
         width: 50%;
-        height: 8px;
+        height: 0.62vh;
         border-radius: 50px;
         background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
     }
 
     .about-skill p {
-        font-size: 20px;
+        font-size: clamp(1rem, 2.2vw, 1.54vh);
 
     }
 
@@ -221,12 +221,12 @@
     }
 
     .about-achievement h1 {
-        font-size: 34px;
+        font-size: clamp(1.2rem, 3.5vw, 2.62vh);
         font-weight: 700;
     }
 
     .about-achievement p {
         text-align: center;
-        font-size: 16px;
+        font-size: clamp(0.9rem, 1.8vw, 1.23vh);
     }
 }

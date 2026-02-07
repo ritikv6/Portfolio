@@ -3,27 +3,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+    gap: 6.15vh;
+    margin: 6.15vh 13.08vh;
 }
 .mywork-title{
     display: flex;
     position: relative;
     align-items: center;
-    gap: 10;
+    gap: 0.77vh;
 }   
 .mywork-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
+    padding: 0px 2.31vh;
+    font-size: clamp(2rem, 5vw, 6.15vh);
     font-weight: 600;
     display: flex;
-    gap: 20px;
+    gap: 1.54vh;
 }
 .mywork .arrow-btn {
     text-decoration: none;
-    font-size: 48px;
-    padding: 10px 15px;
-    margin-left: 20px;
+    font-size: clamp(1.5rem, 4vw, 3.69vh);
+    padding: 0.77vh 1.15vh;
+    margin-left: 1.54vh;
     border: none;
     background-color: transparent;
     color: #b415ff;
@@ -36,7 +36,7 @@
     filter: brightness(1.5) saturate(1.2);
 }
 .mywork-item h2{
-    font-size: 40px;
+    font-size: clamp(1.5rem, 3.5vw, 3.08vh);
     font-weight: 600;
     text-align: center;
     background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
@@ -45,73 +45,73 @@
     -webkit-text-fill-color: transparent;
 }
 .mywork-item p{
-    font-size: 22px;
+    font-size: clamp(1.1rem, 2.3vw, 1.69vh);
     font-weight: 500;
     text-align: left;
     color: #d4d4d4;
-    line-height: 40px;
-    margin-bottom: 20px;
+    line-height: 3.08vh;
+    margin-bottom: 1.54vh;
 }
 
 .mywork-title img{
-    height: 100px;
-    width: 100px;
+    height: 7.69vh;
+    width: 7.69vh;
     position: absolute;
-    bottom: 50px;
-    right: 70px;
+    bottom: 3.85vh;
+    right: 5.38vh;
     z-index: -1;
 }
 .mywork-container{
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 3.08vh;
 }
 .mywork-item img{
-    width: 650px;
-    height: 450px;
-    border-radius: 20px;
+    width: 50vh;
+    height: 34.62vh;
+    border-radius: 1.54vh;
     box-sizing: border-box;
     transition: 0.3s;
     cursor: pointer;
 }
 .mywork-item img:hover{
     transform: scale(1.10);
-    border: 4px solid #ff00ff;
+    border: 0.31vh solid #ff00ff;
     transition:0.3s;
 }
 .mywork-showmore{
     display: flex;
-    gap: 15px;
+    gap: 1.15vh;
     border-radius: 50px;
-    border: solid 2px #fff;
-    padding: 30px 60px;
-    font-size: 22px;
+    border: solid 0.15vh #fff;
+    padding: 2.31vh 4.62vh;
+    font-size: clamp(1.1rem, 2.3vw, 1.69vh);
     font-weight: 500;
-    margin-bottom: 80px;
+    margin-bottom: 6.15vh;
     text-decoration: none;
     color: inherit;
     transition: 0.6s;
     cursor: pointer;
 }
 .mywork-showmore:hover{
-    gap: 30px;
+    gap: 2.31vh;
     transition: 0.6s;
 }
 @media (max-width: 768px) {
     .mywork{
-        gap: 50px;
-        margin: 50px 70px;
+        gap: 3.85vh;
+        margin: 3.85vh 5.38vh;
         align-items: start;
     }
     .mywork-title h1{
-        font-size: 50px;
+        font-size: clamp(1.5rem, 4vw, 3.85vh);
         padding: 0px 0px ;
         font-weight: 600;
     }
     .mywork button.arrow-btn {
-        font-size: 36px;
-        padding: 8px 12px;
-        margin-left: 15px;
+        font-size: clamp(1.2rem, 3vw, 2.77vh);
+        padding: 0.62vh 0.92vh;
+        margin-left: 1.15vh;
     }
     .mywork-title img{
         width: auto;
@@ -125,16 +125,16 @@
         height: 100%;
     }
     .mywork-item h2{
-        font-size: 30px;
+        font-size: clamp(1.2rem, 3vw, 2.31vh);
     }
     .mywork-item p{
-        font-size: 20px;
-        line-height: 32px;
+        font-size: clamp(1rem, 2vw, 1.54vh);
+        line-height: 2.46vh;
     }
     .mywork-showmore{
-        padding: 20px 40px;
-        font-size: 18px;
-        margin: 50px auto;
+        padding: 1.54vh 3.08vh;
+        font-size: clamp(1rem, 2vw, 1.38vh);
+        margin: 3.85vh auto;
         cursor: pointer;
     }
 }

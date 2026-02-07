@@ -15,3 +15,6 @@ body{
     padding: 10px 20px;
     background-color: #282c34;
 }
+.head,body{
+    overflow-x: hidden;
+}

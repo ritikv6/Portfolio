@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+    gap: 6.15vh;
+    margin: 6.15vh 13.08vh;
 }
 
 .contact-title {
@@ -12,24 +12,24 @@
 }
 
 .contact-title h1 {
-    padding: 0px 30px;
-    font-size: 80px;
+    padding: 0px 2.31vh;
+    font-size: clamp(2rem, 5vw, 6.15vh);
     font-weight: 600;
 }
 
 .contact-section {
     display: flex;
-    gap: 200px;
+    gap: 15.38vh;
 }
 
 .contact-left {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2.31vh;
 }
 
 .contact-left h1 {
-    font-size: 80px;
+    font-size: clamp(2rem, 5vw, 6.15vh);
     font-weight: 700;
     background: linear-gradient(270deg, #df8908 80%, #b415ff 100%);
     -webkit-background-clip: text;
@@ -38,32 +38,32 @@
 }
 
 .contact-left p {
-    max-width: 550px;
+    max-width: 42.31vh;
     color: #d8d8d8;
-    font-size: 22px;
-    line-height: 35px;
+    font-size: clamp(1.1rem, 2.3vw, 1.69vh);
+    line-height: 2.69vh;
 }
 
 .contact-delails {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2.31vh;
     color: #d8d8d8;
-    font-size: 22px;
+    font-size: clamp(1.1rem, 2.3vw, 1.69vh);
 }
 
 .contact-detail {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.54vh;
 }
 
 .contact-title img {
-    height: 100px;
-    width: 100px;
+    height: 7.69vh;
+    width: 7.69vh;
     position: absolute;
-    bottom: 40px;
-    right: -30px;
+    bottom: 3.08vh;
+    right: -2.31vh;
     z-index: -1;
 }
 
@@ -71,37 +71,37 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 30px;
+    gap: 2.31vh;
 }
 
 .contact-right label {
     color: #d8d8d8;
-    font-size: 22px;
+    font-size: clamp(1.1rem, 2.3vw, 1.69vh);
     font-weight: 500;
 }
 
 .contact-right input {
     border: none;
-    width: 700px;
-    height: 78px;
-    padding-left: 20px;
-    border-radius: 4px;
+    width: 53.85vh;
+    height: 6vh;
+    padding-left: 1.54vh;
+    border-radius: 0.31vh;
     background: #32323c;
     color: #a0a0a0;
     font-family: 'Lucida Sans';
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw, 1.54vh);
 }
 
 .contact-right textarea {
     border: none;
-    width: 700px;
-    height: 300px;
-    padding: 25px;
-    border-radius: 4px;
+    width: 53.85vh;
+    height: 23.08vh;
+    padding: 1.92vh;
+    border-radius: 0.31vh;
     background: #32323c;
     color: #a0a0a0;
     font-family: 'Lucida Sans';
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw, 1.54vh);
 }
 
 .contact-submit {
@@ -109,9 +109,9 @@
     color: white;
     border-radius: 50px;
     background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
-    font-size: 22px;
-    padding: 20px 60px;
-    margin-bottom: 50px;
+    font-size: clamp(1.1rem, 2.3vw, 1.69vh);
+    padding: 1.54vh 4.62vh;
+    margin-bottom: 3.85vh;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -123,12 +123,12 @@
 
 @media (max-width: 768px) {
     .contact {
-        gap: 50px;
-        margin: 50px 70px;
+        gap: 3.85vh;
+        margin: 3.85vh 5.38vh;
         align-items: start;
     }
     .contact-title h1{
-        font-size: 50px;
+        font-size: clamp(1.5rem, 4vw, 3.85vh);
         padding: 0px 0px ;
         font-weight: 600;
     }
@@ -150,35 +150,35 @@
     }
 
     .contact-left h1 {
-        font-size: 54px;
+        font-size: clamp(1.8rem, 4vw, 4.15vh);
     }
     .contact-left p{
-        font-size: 18px;
+        font-size: clamp(1rem, 2vw, 1.38vh);
     }
     .contact-delails{
-        gap: 20px;
+        gap: 1.54vh;
     }
     .contact-delails img{
         width: 25px;
     }
 
     .contact-right label {
-        font-size: 20px;
+        font-size: clamp(1rem, 2vw, 1.54vh);
         text-align: center;
     }
 
     .contact-right input{
         width: 100%;
-        font-size: 20px;
+        font-size: clamp(1rem, 2vw, 1.54vh);
     }
     .contact-right textarea{
         width: 95%;
-        font-size: 20px;
+        font-size: clamp(1rem, 2vw, 1.54vh);
 
     }
     .contact-submit{
-        font-size: 20px;
-        padding: 15px 40px;
+        font-size: clamp(1rem, 2vw, 1.54vh);
+        padding: 1.15vh 3.08vh;
     }
     
 }
