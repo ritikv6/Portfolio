@@ -1,19 +1,20 @@
 *{
-    margin : 0;
-    padding : 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-<<<<<<< HEAD
+
 html{
     scroll-padding-top: 10vh;
 }
-=======
->>>>>>> e35239de660a88d25d9fc4f15acc79155c68c21c
+
 body{
     height: 100vh;
     background: #1b1a1c;
     color: white;
     font-family: 'comic sans ms', cursive, sans-serif;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -21,6 +22,7 @@ body{
     padding: 10px 20px;
     background-color: #282c34;
 }
-.head,body{
+
+.head, body {
     overflow-x: hidden;
 }

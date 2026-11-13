@@ -19,7 +19,6 @@ const Mywork = () => {
       </div>
       <div className="mywork-container">
         <div className="mywork-item">
-<<<<<<< HEAD
           <h2>WeChatt</h2>
           <p>A real-time messaging application built with React and Node.js.</p>
           <img
@@ -27,11 +26,6 @@ const Mywork = () => {
             alt="Open WeChatt"
             onClick={() => window.location.href = "https://ritikv6.github.io/WEchatt/"}
           />
-=======
-          <h2>Project 1</h2>
-          <p>A responsive website built using React, CSS and Tailwind.</p>
-          <img src={work_img_1} alt="" />
->>>>>>> e35239de660a88d25d9fc4f15acc79155c68c21c
         </div>
         <div className="mywork-item">
           <h2>Project 2</h2>
