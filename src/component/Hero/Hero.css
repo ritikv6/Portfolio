@@ -1,0 +1,123 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+
+.hero img{
+    width: 35vh;
+    height: 35vh;
+    margin-top: 5vh;
+    border-radius: 50%;
+    box-shadow: 0 0 2vh rgba(201, 220, 229, 0.2);
+}
+
+
+.hero h1{
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    width: 80%;
+    font-size: clamp(2.8rem, 3.5vw, 6rem);         
+}
+
+.hero h1 span{
+    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.hero p{
+    margin-bottom: 4vh;
+    text-align: center;
+    width: 50%;
+    font-size: clamp(1rem, 1.2vw, 1.5rem);          
+    font-weight: 400;
+    line-height: 4vh;
+}
+
+/* ACTION BUTTON WRAPPER */
+.hero-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    font-size: 22px;          
+    font-weight: 400;
+    margin-bottom: 5vh;
+}
+
+/* CONNECT BUTTON */
+.hero-connect{
+    padding: 2.5vh 4.5vh;
+    border-radius: 5vh;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    font-size: 22px;          
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+/* RESUME BUTTON */
+.hero-resume{
+    padding: 2.5vh 4.5vh;
+    border-radius: 5vh;
+    border: 0.2vh solid #fff;
+    font-size: clamp(1rem, 1.4vw, 1.5rem);;          
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+/* HOVER */
+.hero-connect:hover{
+    border: 0.2vh solid #fff;
+    transform: scale(1.05);
+}
+
+.hero-resume:hover{
+    border-color: #b415ff;
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .hero img{
+        margin-top: 2vh;
+        width: 28vh;
+        height: 28vh;
+    }
+
+    .hero h1{
+        margin-top: 4vh;
+        width: 90%;
+        font-size: 50px;      
+    }
+
+    .hero p{
+        width: 80%;
+        font-size: 18px;      
+        line-height: 3.2vh;
+        margin: 1vh 0;
+    }
+
+    .hero-action{
+        gap: 1.6vh;
+        font-size: 18px;      
+        font-weight: 500;
+        margin-bottom: 5vh;
+    }
+
+    .hero-connect{
+        padding: 2vh 3vh;
+        border-radius: 4vh;
+    }
+
+    .hero-resume{
+        padding: 2vh 5vh;
+        border-radius: 4vh;
+    }
+}
