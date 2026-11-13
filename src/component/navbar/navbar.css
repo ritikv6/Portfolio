@@ -4,12 +4,9 @@
     justify-content: space-between;
     padding: 1vh 5vh;
     box-sizing: border-box;
-<<<<<<< HEAD
     position: sticky;
     top: 0;
     z-index: 10;
-=======
->>>>>>> e35239de660a88d25d9fc4f15acc79155c68c21c
 }
 
 .nav-menu{
@@ -44,15 +41,8 @@
 .nav-menu li img{
     transform: translate(6vh,1vh);
     position: absolute;
-   
-<<<<<<< HEAD
     width: 2.4vh;
     height: 2.4vh;
-=======
-    width: 4.7vh;
-    height: 4.7vh;
->>>>>>> e35239de660a88d25d9fc4f15acc79155c68c21c
-
 }
 .anchor-link{
     text-decoration: none;
